@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "The Bombieri-Lang Conjecture via Rational-Point Sparsity Persistence"
+message: "If you use this repository, cite the Canonical Lane manuscript and metadata file."
+type: software
+authors:
+  - family-names: HautevilleHouse
+    given-names: HautevilleHouse
+abstract: "Canonical Lane theorem package for The Bombieri-Lang Conjecture via Rational-Point Sparsity Persistence on the manifold-constrained local-to-global architecture."
+repository-code: https://github.com/HautevilleHouse/bombieri-lang-conjecture-canonical-lane
+license: MIT

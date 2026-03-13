@@ -1,0 +1,53 @@
+{
+  "constants": {
+    "eps_coh": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Appendix E.6; raw=0.0, ref=1.0, formula=eps_coh_raw",
+      "source": "artifacts/constants_extracted.json#eps_coh",
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.0
+    },
+    "kappa_compact": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C; raw=0.8038585209003215, ref=1.0, formula=1.0 / (1.0 + delta_comp_sup_raw)",
+      "source": "artifacts/constants_extracted.json#kappa_compact",
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.8038585209003215
+    },
+    "kappa_rational": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A; raw=1.0937330000000003, ref=1.0, formula=c_rational_raw * rational_density_raw - e_rational_raw",
+      "source": "artifacts/constants_extracted.json#kappa_rational",
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0937330000000003
+    },
+    "lang_transfer": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4; raw=1.029422, ref=1.0, formula=c_transfer_raw * transfer_gain_raw - e_transfer_raw",
+      "source": "artifacts/constants_extracted.json#lang_transfer",
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.029422
+    },
+    "rho_rigidity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D; raw=1.077, ref=1.0, formula=rho_rigidity_raw",
+      "source": "artifacts/constants_extracted.json#rho_rigidity",
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.077
+    },
+    "sigma_sparsity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B; raw=1.074, ref=1.0, formula=sparsity_floor_raw - truncation_loss_raw - restart_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_sparsity",
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.074
+    }
+  },
+  "updated_at_utc": "2026-03-13T17:47:50Z"
+}

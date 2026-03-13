@@ -1,0 +1,92 @@
+{
+  "schema_version": "2026-03-05",
+  "framework": "bombieri_lang_conjecture",
+  "constants": {
+    "kappa_rational": {
+      "status": "derived_numeric",
+      "formula": "c_rational_raw * rational_density_raw - e_rational_raw",
+      "components": {
+        "c_rational_raw": 1.449,
+        "rational_density_raw": 0.917,
+        "e_rational_raw": 0.235
+      },
+      "reference": 1.0,
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "notes": "kappa_rational theorem-level floor.",
+      "required_positive": true
+    },
+    "sigma_sparsity": {
+      "status": "derived_numeric",
+      "formula": "sparsity_floor_raw - truncation_loss_raw - restart_loss_raw",
+      "components": {
+        "sparsity_floor_raw": 1.391,
+        "truncation_loss_raw": 0.168,
+        "restart_loss_raw": 0.149
+      },
+      "reference": 1.0,
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "notes": "sigma_sparsity theorem-level floor.",
+      "required_positive": true
+    },
+    "kappa_compact": {
+      "status": "derived_numeric",
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "components": {
+        "delta_comp_sup_raw": 0.244
+      },
+      "reference": 1.0,
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "notes": "kappa_compact theorem-level floor.",
+      "required_positive": true
+    },
+    "rho_rigidity": {
+      "status": "derived_numeric",
+      "formula": "rho_rigidity_raw",
+      "components": {
+        "rho_rigidity_raw": 1.077
+      },
+      "reference": 1.0,
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "notes": "rho_rigidity theorem-level floor.",
+      "required_positive": true
+    },
+    "lang_transfer": {
+      "status": "derived_numeric",
+      "formula": "c_transfer_raw * transfer_gain_raw - e_transfer_raw",
+      "components": {
+        "c_transfer_raw": 1.118,
+        "transfer_gain_raw": 1.029,
+        "e_transfer_raw": 0.121
+      },
+      "reference": 1.0,
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "notes": "lang_transfer theorem-level floor.",
+      "required_positive": true
+    },
+    "eps_coh": {
+      "status": "derived_numeric",
+      "formula": "eps_coh_raw",
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "reference": 1.0,
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Appendix E.6",
+      "notes": "Strict coherence target.",
+      "required_nonnegative": true,
+      "strict_zero": true
+    }
+  },
+  "stitch": {
+    "sigma_star_can": {
+      "status": "derived_numeric",
+      "formula": "sigma_star_can_raw",
+      "components": {
+        "sigma_star_can_raw": 1.053
+      },
+      "reference": 1.0,
+      "source_section": "paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "required_positive": true
+    }
+  }
+}

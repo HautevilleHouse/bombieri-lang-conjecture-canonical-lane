@@ -1,0 +1,78 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "BL_G1": [],
+    "BL_G2": [],
+    "BL_G3": [],
+    "BL_G4": [],
+    "BL_G5": [],
+    "BL_G6": [],
+    "BL_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8038585209003215
+  },
+  "gates": {
+    "BL_G1": "PASS",
+    "BL_G2": "PASS",
+    "BL_G3": "PASS",
+    "BL_G4": "PASS",
+    "BL_G5": "PASS",
+    "BL_G6": "PASS",
+    "BL_GM": "PASS"
+  },
+  "inputs": {
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8038585209003215,
+    "kappa_rational": 1.0937330000000003,
+    "lang_transfer": 1.029422,
+    "rho_rigidity": 1.077,
+    "sigma_sparsity": 1.074,
+    "sigma_star_can": 1.053
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-13T17:47:50+00:00",
+    "framework": "bombieri_lang_conjecture"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}
