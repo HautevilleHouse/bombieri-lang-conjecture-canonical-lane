@@ -1,6 +1,6 @@
 # EG4 Public Note (Rigidity and Endpoint Transfer)
 
-Mature wording: `bad-limit exclusion / endpoint transfer`.
+Canonical wording: `bad-limit exclusion / endpoint transfer`.
 
 In-paper anchor: `paper/BOMBIERI_LANG_CONJECTURE_PREPRINT.md` (`BL_G4`, `BL_G5`).
 
@@ -42,5 +42,5 @@ If bad limits are excluded and the endpoint lock is active, then `BL_G4` and `BL
 - rigidity artifact key: `rho_rigidity`
 - transfer gate: `BL_G5`
 - transfer artifact key: `lang_transfer`
-- mature equivalent: `bad-limit exclusion / endpoint identification`
+- canonical equivalent: `bad-limit exclusion / endpoint identification`
 - audit surface: `notes/IDENTIFICATION_BRIDGE.md` and `repro/certificate_runtime.json`
